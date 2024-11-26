@@ -1,5 +1,6 @@
 name: Build LKM for KernelSU
 on:
+  workflow_dispatch:
   push:
     branches: ["main", "ci", "checkci"]
     paths:
